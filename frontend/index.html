@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CityFit Analyse</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>CityFit Analyse</h1>
+
+    <div class="slider-box">
+
+      <label>Cost of Living</label>
+      <input type="range" min="0" max="100" value="50" id="cost">
+
+      <label>Safety</label>
+      <input type="range" min="0" max="100" value="50" id="safety">
+
+      <label>Internet Speed</label>
+      <input type="range" min="0" max="100" value="50" id="internet">
+
+      <label>Climate</label>
+      <input type="range" min="0" max="100" value="50" id="climate">
+
+      <label>Nightlife</label>
+      <input type="range" min="0" max="100" value="50" id="nightlife">
+
+      <button onclick="findCity()">
+        Find My City
+      </button>
+
+    </div>
+
+    <div id="result"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

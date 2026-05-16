@@ -1,0 +1,42 @@
+body{
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+.container{
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.slider-box{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 15px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.city-card{
+    margin-top: 20px;
+    background: #eee;
+    padding: 15px;
+    border-radius: 8px;
+}
